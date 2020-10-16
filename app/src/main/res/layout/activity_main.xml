@@ -7,6 +7,12 @@
 	android:layout_height="match_parent" 
 	android:orientation="vertical"
 	tools:context="com.hfad.bitsandpizzas.MainActivity"> 
-	
-	<TextView  android:layout_width="wrap_content"  android:layout_height="wrap_content"  
-		android:text="Hello World!" /> </LinearLayout> 
+	<android.support.v7.widget.Toolbar
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"  
+		android:layout_height="wrap_content"
+		android:background="#f44336"
+		android:id="@+id/app_bar"
+		>
+	</android.support.v7.widget.Toolbar>
+	</LinearLayout> 
