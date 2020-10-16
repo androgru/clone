@@ -1,14 +1,12 @@
 package com.UAD.baseforapp;
 
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.content.Intent;
-import android.view.*;
+import android.content.*;
+import android.graphics.*;
+import android.os.*;
 import android.support.v7.app.*;
+import android.support.v7.widget.*;
+import android.view.*;
 public class About extends ActionBarActivity
 {  
 
@@ -19,6 +17,7 @@ public class About extends ActionBarActivity
 		setContentView(R.layout.about_toolbar);
 		app_bar=(Toolbar) findViewById(R.id.app_bar);
 		setSupportActionBar(app_bar);
+		app_bar.setTitleTextColor(Color.WHITE);
 		getSupportActionBar().setHomeButtonEnabled(true);
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 	}

@@ -11,7 +11,8 @@
 		xmlns:tools="http://schemas.android.com/tools"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:background="#f44336"
+		android:background="@color/colorPrimary"
+		android:titleTextColor="@color/colorAccent"
 		android:id="@+id/app_bar">
 
 	</android.support.v7.widget.Toolbar>
@@ -19,7 +20,7 @@
 	<TextView
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		android:text="App developed  by Androgru           \n  Email: aljithchonedanpopup@gmail.com\n instagram: httpswww.instagram.com/androgru"
+		android:text="App developed  by Androgru           \n  Email: aljithchonedanpopup@gmail.com\n instagram: www.instagram.com/androgru"
 		android:textAppearance="?android:attr/textAppearanceLarge"
 		android:layout_gravity="center"
 		android:gravity="center"

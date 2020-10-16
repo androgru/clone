@@ -9,9 +9,10 @@
 	tools:context="com.hfad.bitsandpizzas.MainActivity"> 
 	<android.support.v7.widget.Toolbar
 		xmlns:tools="http://schemas.android.com/tools"
-		android:layout_width="match_parent"  
+		android:layout_width="match_parent" 
 		android:layout_height="wrap_content"
-		android:background="#f44336"
+		
+		android:background="@color/colorPrimary"
 		android:id="@+id/app_bar"
 		>
 	</android.support.v7.widget.Toolbar>

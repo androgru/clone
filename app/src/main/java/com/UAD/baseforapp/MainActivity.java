@@ -9,6 +9,7 @@ import android.view.MenuItem;
 import android.content.Intent;
 import android.view.*;
 import android.support.v7.app.*;
+import android.graphics.*;
 public class MainActivity extends ActionBarActivity
 {  
 
@@ -19,7 +20,7 @@ protected void onCreate(Bundle savedInstanceState) {  super.onCreate(savedInstan
 		setContentView(R.layout.activity_main);
 		app_bar=(Toolbar) findViewById(R.id.app_bar);
 	setSupportActionBar(app_bar);
-	
+	app_bar.setTitleTextColor(Color.WHITE);
 }
 
 @Override
